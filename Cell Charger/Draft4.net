@@ -1,0 +1,17 @@
+* C:\Users\hoppeb\Documents\GitHub\BatteryModeling\Cell Charger\Draft4.asc
+V1 N001 0 100
+M1 N002 Vs1 N001 N001 NMOS
+Vs1 Vs1 0 PULSE(0 5 .005m .1n .1n .49m 1m)
+Vs2 Vs2 0 PULSE(5 0 0 .1n .1n .5m 1m)
+L1 N003 N002 1.3m
+C1 N003 0 16.7µ
+R1 N003 0 100
+D1 0 N002 D
+.model D D
+.lib C:\Users\hoppeb\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\hoppeb\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0 2m 0
+.backanno
+.end

@@ -1,0 +1,23 @@
+* C:\Users\hoppeb\Documents\GitHub\BatteryModeling\Cell Charger\BuckConverter_RM.asc
+V1 N002 0 100 Rser=0
+M1 N003 Vs1 N002 N002 NMOS
+L1 Vout N003 1.3m
+C1 Vout 0 16.7µ
+R1 Vout 0 20m
+Vs1 Vs1 0 PULSE(0 5 0 .1n .1n .025m .1m)
+XU1 0 N001 +5 -5 Vs2 level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+RI N001 Vs1 1k
+RF Vs2 N001 1k
+R2 N001 -5 1k
+V2 +5 0 5
+V3 -5 0 -5
+D1 0 N003 D
+.model D D
+.lib C:\Users\hoppeb\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\hoppeb\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0 25m 0
+.lib UniversalOpAmp2.lib
+.backanno
+.end

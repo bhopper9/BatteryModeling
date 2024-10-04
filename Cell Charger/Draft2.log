@@ -1,0 +1,23 @@
+Circuit: * C:\Users\hoppeb\Documents\GitHub\BatteryModeling\Cell Charger\Draft2.asc
+
+WARNING: Less than two connections to node +5.  This node is used by V2.
+WARNING: Less than two connections to node -5.  This node is used by V3.
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Oct 03 15:15:23 2024
+Total elapsed time: 0.100 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 22967
+traniter = 22955
+tranpoints = 10567
+accept = 9861
+rejected = 706
+matrix size = 11
+fillins = 0
+solver = Normal
+Matrix Compiler1: 252 bytes object code size  0.1/0.0/[0.0]
+Matrix Compiler2: off  [0.0]/0.1/0.1
+

@@ -1,0 +1,11 @@
+* C:\Users\hoppeb\Documents\GitHub\BatteryModeling\Cell Charger\Draft1.asc
+V1 N001 0 100 Rser=0
+M1 N001 Vs1 N002 N002 NMOS
+R1 N002 0 1000
+Vs1 Vs1 0 PULSE(0 1000 0 .1n .1n .05m .1m)
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\hoppeb\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 5m
+.backanno
+.end

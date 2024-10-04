@@ -3,31 +3,32 @@ Circuit: * C:\Users\hoppeb\Documents\GitHub\BatteryModeling\Cell Charger\Synchro
 WARNING: Less than two connections to node +5.  This node is used by V2.
 WARNING: Less than two connections to node -5.  This node is used by V3.
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 0.0115149 ++++++++++++++++++++++++++++to 0.0115149
-Heightened Def Con from 0.0634142 ++++++++++++++++++++++++++++to 0.0634142
-Heightened Def Con from 0.0654142 ++++++++++++++++++++++++++++to 0.0654142
-Heightened Def Con from 0.0656142 ++++++++++++++++++++++++++++to 0.0656142
-Heightened Def Con from 0.0663142 ++++++++++++++++++++++++++++to 0.0663142
-Heightened Def Con from 0.0763128 +++++++++++++++++++++++++++to 0.0763128
-Heightened Def Con from 0.0854141 ++++++++++++++++++++++++++++to 0.0854141
-Heightened Def Con from 0.0921152 ++++++++++++++++++++++++++++to 0.0921152
-Heightened Def Con from 0.0944154 ++++++++++++++++++++++++++++to 0.0944154
-Heightened Def Con from 0.0995152 ++++++++++++++++++++++++++++to 0.0995152
+Heightened Def Con from 0.00540429 +++++++++++++++++++++++++++to 0.00540429
+Heightened Def Con from 0.00551439 +++++++++++++++++++++++++++to 0.0055144
+Heightened Def Con from 0.00566439 +++++++++++++++++++++++++++to 0.00566439
+Heightened Def Con from 0.00576388 ++++++++++++++++++++++++to 0.00576388
+Heightened Def Con from 0.0058644 +++++++++++++++++++++++++++to 0.0058644
+Heightened Def Con from 0.0058944 +++++++++++++++++++++++++++to 0.0058944
+Heightened Def Con from 0.00596385 +++++++++++++++++++++++++to 0.00596385
+Heightened Def Con from 0.00610403 ++++++++++++++++++++++++to 0.00610403
+Heightened Def Con from 0.00782403 +++++++++++++++++++++++++to 0.00782403
+Heightened Def Con from 0.010355 ++++++++++++++++++++++to 0.010355
+Heightened Def Con from 0.011165 to 0.011165
 
-Date: Fri Oct 04 16:28:59 2024
-Total elapsed time: 1.125 seconds.
+Date: Fri Oct 04 16:30:21 2024
+Total elapsed time: 6.944 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 591841
-traniter = 591832
-tranpoints = 223154
-accept = 190445
-rejected = 32998
+totiter = 4199161
+traniter = 4199152
+tranpoints = 1597077
+accept = 1350375
+rejected = 246968
 matrix size = 12
 fillins = 0
 solver = Normal
 Matrix Compiler1: 302 bytes object code size  0.1/0.0/[0.0]
-Matrix Compiler2: off  [0.0]/0.1/0.1
+Matrix Compiler2: off  [0.0]/0.1/0.0
 

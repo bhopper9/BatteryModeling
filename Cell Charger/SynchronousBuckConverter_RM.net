@@ -4,10 +4,10 @@ M1 N001 Vs1 N002 N002 NMOS
 L1 Vout N002 1.3m
 C1 Vout 0 16.7µ
 R1 Vout 0 1000
-Vs1 Vs1 0 PULSE(0 150 0 .1n .1n .05m .1m)
+Vs1 Vs1 0 PULSE(0 150 0 .1n .1n 5u 10u)
 V2 +5 0 5
 V3 -5 0 -5
-Vs2 Vs2 0 PULSE(150 0 0 .1n .1n .05m .1m)
+Vs2 Vs2 0 PULSE(150 0 0 .1n .1n 5u 10u)
 M2 N002 Vs2 0 0 NMOS
 .model NMOS NMOS
 .model PMOS PMOS

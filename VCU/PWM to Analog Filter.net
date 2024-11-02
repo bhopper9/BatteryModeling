@@ -1,9 +1,0 @@
-* C:\Users\hoppeb\Documents\GitHub\BatteryModeling\VCU\PWM to Analog Filter.asc
-V1 N001 0 PULSE(0 5 0 0 0 25u 50u)
-C1 N002 0 0.2µ
-R1 N002 N001 1800
-C2 N003 0 0.2µ
-R2 N003 N002 1800
-.tran 1
-.backanno
-.end

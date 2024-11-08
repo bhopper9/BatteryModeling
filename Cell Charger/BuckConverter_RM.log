@@ -2,20 +2,20 @@ Circuit: * C:\Users\hoppeb\Documents\GitHub\BatteryModeling\Cell Charger\BuckCon
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sat Oct 26 21:49:28 2024
-Total elapsed time: 5.701 seconds.
+Date: Fri Nov 08 17:16:34 2024
+Total elapsed time: 28.497 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1143732
-traniter = 1143708
-tranpoints = 414467
-accept = 323353
-rejected = 91114
-matrix size = 15
-fillins = 0
+totiter = 11770621
+traniter = 11770597
+tranpoints = 3355367
+accept = 2493583
+rejected = 861784
+matrix size = 18
+fillins = 4
 solver = Normal
-Matrix Compiler1: 578 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: 1.11 KB object code size  0.2/0.2/[0.1]
+Matrix Compiler1: 1.02 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.2
 

@@ -1,4 +1,4 @@
-24255142130532262
+24272471456178041
 1.5A Fuse
 C1_BEL
 
@@ -17,6 +17,20 @@ C1T 1.5
 C1_BEL-M
 
 C1T 1.5 
+0
+2
+2
+2Pin-TE-Connector
+CONN2_1-2834011-2_TEC
+
+1-2834011-2 
+0
+2
+2
+10A Fuse
+FUSC6125X279N
+
+
 0
 2
 2
@@ -54802,6 +54816,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DC-DC Converter
+R-78C&slash_E-1.0_SIP3_11.6X8.5X10.4_RCP
+
+R-78C12-1.0 
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -69341,6 +69362,27 @@ https://www.addicore.com/Pro-Mini-p/ad249.htm
 0
 29
 29
+PDU Diode
+POWERDI5_DIO
+
+PDS1040L-13 
+0
+3
+3
+PDU Diode
+POWERDI5_DIO-L
+
+PDS1040L-13 
+0
+3
+3
+PDU Diode
+POWERDI5_DIO-M
+
+PDS1040L-13 
+0
+3
+3
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
@@ -85756,6 +85798,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Payload Relay
+RELAY6_J115F11A12VDCS6.9_CRS
+
+J115F11A12VDCS6.9 
+0
+6
+6
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -87905,6 +87954,27 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+Relay Driver IC
+SOT-23_TO-236_318_AT_OSI
+
+SZNUD3124LT1G 
+0
+3
+3
+Relay Driver IC
+SOT-23_TO-236_318_AT_OSI-L
+
+SZNUD3124LT1G 
+0
+3
+3
+Relay Driver IC
+SOT-23_TO-236_318_AT_OSI-M
+
+SZNUD3124LT1G 
+0
+3
+3
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf

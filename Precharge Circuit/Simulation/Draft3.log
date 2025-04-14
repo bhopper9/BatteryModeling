@@ -1,0 +1,89 @@
+Circuit: * C:\Users\hoppeb\Documents\GitHub\BatteryModeling\Precharge Circuit\Simulation\Draft3.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 3.74144e-005
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 3.33606e-005
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+Gmin = 3.33606e-005
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 42.6136%
+Source Step = 43.0871%
+Source Step = 43.5606%
+Source Step = 44.0341%
+Source Step = 44.5076%
+vernier = 0.0234375
+Source Step = 45.0521%
+Source Step = 45.7623%
+Source Step = 46.4725%
+Source Step = 47.1828%
+Source Step = 47.893%
+vernier = 0.0351563
+Source Step = 48.6742%
+Source Step = 49.7396%
+Source Step = 50.8049%
+Source Step = 51.8703%
+Source Step = 52.9356%
+vernier = 0.0527344
+Source Step = 54.0542%
+Source Step = 55.6522%
+Source Step = 57.2502%
+Source Step = 58.8482%
+Source Step = 60.4463%
+Source Step = 62.0443%
+vernier = 0.0791016
+Source Step = 64.4413%
+Source Step = 66.8383%
+Source Step = 69.2353%
+Source Step = 71.6323%
+Source Step = 74.0294%
+vernier = 0.118652
+Source Step = 77.505%
+Source Step = 81.1006%
+Source Step = 84.6961%
+Source Step = 88.2916%
+Source Step = 91.8871%
+vernier = 0.177979
+Source Step = 96.9209%
+Source stepping succeeded in finding the operating point.
+
+Heightened Def Con from 1e-009 to 3e-009
+
+Date: Mon Feb 17 13:46:19 2025
+Total elapsed time: 0.220 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6773
+traniter = 2987
+tranpoints = 1084
+accept = 1067
+rejected = 18
+matrix size = 83
+fillins = 71
+solver = Normal
+Matrix Compiler1: 7.84 KB object code size  1.4/0.6/[0.3]
+Matrix Compiler2: 8.50 KB object code size  0.7/1.1/[0.3]
+

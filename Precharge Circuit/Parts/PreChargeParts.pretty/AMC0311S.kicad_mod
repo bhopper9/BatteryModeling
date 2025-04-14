@@ -1,0 +1,157 @@
+(footprint "AMC0311S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.210675 -2.841818 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cfb722fb-7a07-449d-8937-0fae5a1dc149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AMC0311S"
+		(at 5.631095 1.656829 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "91b25d94-f27a-4728-b5ca-89ce408a8c92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 5.08 6.39 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "076beae6-452c-4090-9ce4-ab7677687467")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 5.08 6.39 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa18ee9a-5d27-4741-b057-e163ea2c27c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 5.08 6.39 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b65e5aa-bd9e-4c2c-9868-b61f204fb0c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 5.713892 6.210675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b41de9a-f4de-4b16-b159-46b395c23a3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f9a99059-87c1-4e57-a71c-bfe57d5834b2")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.27)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e804fdad-cd02-4ef8-aa27-f9695e99ca39")
+	)
+	(pad "3" smd roundrect
+		(at 0 2.54)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4505d6b0-39be-4e52-9b46-3de27a2a60b8")
+	)
+	(pad "4" smd roundrect
+		(at 0 3.81)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8766e643-b8ea-4a4e-ae02-c7f1c3c22ac2")
+	)
+	(pad "5" smd roundrect
+		(at 10.9 3.81)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "bb31cb6b-ff61-4b84-8cea-4f418a2cb537")
+	)
+	(pad "6" smd roundrect
+		(at 10.9 2.54)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "066e0332-54f3-4353-a89e-3717726f8821")
+	)
+	(pad "7" smd roundrect
+		(at 10.9 1.27)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "40b38690-f3d8-4d6c-b5f1-02e4c5820afc")
+	)
+	(pad "8" smd roundrect
+		(at 10.9 0)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "B.SilkS" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a5dc8419-5dbd-4b11-afaa-7a4e46212cbe")
+	)
+	(model "C:/Users/hoppeb/Documents/GitHub/BatteryModeling/Precharge Circuit/Parts/Isolation Amplifier/DWV0008A.stp"
+		(offset
+			(xyz 5.25 -1.9 1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

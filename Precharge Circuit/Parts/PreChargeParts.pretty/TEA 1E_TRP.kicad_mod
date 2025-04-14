@@ -1,0 +1,243 @@
+(footprint "TEA 1E_TRP"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "TEA 1-0505E ")
+	(property "Reference" "REF**"
+		(at 7.62 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d6cbd8a9-e648-4877-964d-8b7caa6112bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TEA_1E_TRP"
+		(at 7.62 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1a4dda9-e52e-4583-8a7c-f8962bcf2a66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d52aed35-d7b3-48d1-9057-d65a7a38fcc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17d0b0e2-f97b-4f22-8470-c5eed25e9025")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f769df89-c5fe-42f5-aaf4-529fc638d3e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.2606 -1.0242)
+		(end -2.2606 5.2242)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd462fb4-a250-4890-8b72-73f2130a0f9b")
+	)
+	(fp_line
+		(start -2.2606 5.2242)
+		(end 17.5006 5.2242)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "441aa2b0-cd01-46ec-9705-08da5aba67a1")
+	)
+	(fp_line
+		(start 17.5006 -1.0242)
+		(end -2.2606 -1.0242)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "976f655e-c039-4fde-a10a-7c34eb5a3f04")
+	)
+	(fp_line
+		(start 17.5006 5.2242)
+		(end 17.5006 -1.0242)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5264df03-8407-4fa5-a9b5-e1bf8ce60a44")
+	)
+	(fp_line
+		(start -2.3876 -1.1512)
+		(end 17.6276 -1.1512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b104b6a7-bc68-4aee-971d-7e6341a19f55")
+	)
+	(fp_line
+		(start -2.3876 5.3512)
+		(end -2.3876 -1.1512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b636c09-f597-45aa-938f-6bb3417e282a")
+	)
+	(fp_line
+		(start 17.6276 -1.1512)
+		(end 17.6276 5.3512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73ce59dc-7e63-4243-b4b5-ce2652c668b4")
+	)
+	(fp_line
+		(start 17.6276 5.3512)
+		(end -2.3876 5.3512)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4955344a-7198-4a14-b673-4b6656f3f84e")
+	)
+	(fp_line
+		(start -2.1336 -0.8972)
+		(end -2.1336 5.0972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2682731a-ba52-4765-ba24-d00c6c169bf7")
+	)
+	(fp_line
+		(start -2.1336 5.0972)
+		(end 17.3736 5.0972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f62d258-1545-4f7a-be54-43c66ca8f247")
+	)
+	(fp_line
+		(start 17.3736 -0.8972)
+		(end -2.1336 -0.8972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa0afc87-5cdb-4344-b2a5-c25f52bb3b18")
+	)
+	(fp_line
+		(start 17.3736 5.0972)
+		(end 17.3736 -0.8972)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97488517-8c9a-4292-8a31-d6a280c0a37f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9b07be21-1876-4543-8a30-b37751d0abc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d9f8503-9291-4af1-84f0-6a078a822b82")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.27 1.27)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52ad6f17-1a77-4bc8-a790-42205ba8f078")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.27 1.27)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12a47267-178e-49f0-9dd2-f89b7dc7c133")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.27 1.27)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22657b1b-7dba-43a5-a133-0ee99635daa3")
+	)
+	(model "C:/Users/hoppeb/Documents/GitHub/BatteryModeling/Precharge Circuit/Parts/Isolating DC-DC Converter/tea1e_3d_drawing.stp"
+		(offset
+			(xyz -2.2 1 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

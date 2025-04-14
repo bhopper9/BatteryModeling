@@ -1,0 +1,269 @@
+(footprint "CAP_C315C_MOLDED_KEM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "C315C101J3G5TA ")
+	(property "Reference" "REF**"
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0040e183-849f-4755-ae28-b6715014eacf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP_C315C_MOLDED_KEM"
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "81a0b7aa-5e4e-4ffd-939e-ccde9a10dff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cb8e460-dcc8-4c85-ab4c-2c23a1e1940a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e834b8e0-3cd5-4988-b70e-1fb4549b0ac3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2cff24b-7719-49e8-8238-66ca118ee2d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.762 -1.397)
+		(end -0.762 -1.009697)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8875f02-7793-45df-b464-2aac33431635")
+	)
+	(fp_line
+		(start -0.762 1.009697)
+		(end -0.762 1.397)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8388f76b-eaf1-4141-a79b-d5ee994957da")
+	)
+	(fp_line
+		(start 3.302 -1.397)
+		(end -0.762 -1.397)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15e76a51-8997-4eb7-8325-50cda1311673")
+	)
+	(fp_line
+		(start 3.302 -1.397)
+		(end 3.302 -0.675855)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e91f92a7-d88d-4dee-ac71-9e5d59313f31")
+	)
+	(fp_line
+		(start 3.302 0.675855)
+		(end 3.302 1.397)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c638e77d-2798-4edf-85a5-25c26fa48f8b")
+	)
+	(fp_line
+		(start 3.302 1.397)
+		(end -0.762 1.397)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6711e00f-a983-4a85-8410-095b18a17ca7")
+	)
+	(fp_circle
+		(center -1.5748 0)
+		(end -1.4986 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cff4fc66-50e6-4444-8b5a-3d26c2e44eaf")
+	)
+	(fp_line
+		(start -0.889 -1.524)
+		(end 3.429 -1.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0876b34c-05d0-4eee-979f-877d28be5903")
+	)
+	(fp_line
+		(start -0.889 1.524)
+		(end -0.889 -1.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5f834c8-8275-424d-9cbc-13a9bddb90cc")
+	)
+	(fp_line
+		(start 3.429 -1.524)
+		(end 3.429 1.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ade2894-d842-4c6f-909d-66c5b35a720a")
+	)
+	(fp_line
+		(start 3.429 1.524)
+		(end -0.889 1.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f36d195-6e59-49df-ac5d-0502b9a554b1")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end -0.635 1.27)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0959cb8a-2ec8-474c-8135-a3fa1bd7a663")
+	)
+	(fp_line
+		(start 3.175 -1.27)
+		(end -0.635 -1.27)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee31a8ef-9952-4fd3-8b0b-40d2c869616c")
+	)
+	(fp_line
+		(start 3.175 -1.27)
+		(end 3.175 1.27)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9a8dbed-8a7c-4c2e-99fe-8b4c2e49c9f4")
+	)
+	(fp_line
+		(start 3.175 1.27)
+		(end -0.635 1.27)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b01e589-a1d5-43e6-8d33-a5c209363e24")
+	)
+	(fp_circle
+		(center -0.127 0)
+		(end -0.0508 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bc153bb6-43d9-4bea-9799-1da604938dd6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "811e238a-f956-4efd-8e83-bcfcde28879b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2700cb4-dd3c-4af4-984d-ab5b0362c555")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15c0869d-b95a-4c57-9ac9-0a058cc12bfa")
+	)
+	(model "C:/Users/hoppeb/Documents/GitHub/BatteryModeling/Precharge Circuit/Parts/100pFCap/CAP_C315C_MOLDED_KEM.step"
+		(offset
+			(xyz 0.25 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
